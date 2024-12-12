@@ -35,3 +35,5 @@ Push the Code to the New GitHub Repository:
 
 Open the integrated terminal in VS Code.
 Run git push -u origin master to push the code to the new GitHub repository.
+
+okay

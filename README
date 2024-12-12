@@ -1,39 +1,17 @@
-Using VS Code UI
-Clone the Existing Repository:
-
-Open VS Code.
-Press Cmd+Shift+P to open the Command Palette.
 Type Git: Clone and select it.
 Enter the URL of your existing repository: https://github.com/your-username/your-repository.git.
 Choose a location on your local machine to clone the repository.
-Open the cloned repository in VS Code.
 Rename the Project Folder:
-
-Rename the folder to your new project name.
 Install Dependencies:
-
-Open the integrated terminal in VS Code (`Ctrl+``).
 Run npm install to install the project dependencies.
 Update Project Details:
-
-Open package.json and update the name, version, description, author, and other fields as needed.
-Update the .env file with any new environment variables specific to your new project.
 Initialize a New Git Repository:
-
-Open the integrated terminal in VS Code.
 Run rm -rf .git to remove the existing Git history.
 Run git init to initialize a new Git repository.
-Commit the Initial State:
-
-In the Source Control panel in VS Code, stage all changes.
-Enter a commit message like "Initial commit for new project" and commit the changes.
 Add the New GitHub Repository as a Remote:
+Add git remote
 
-Open the integrated terminal in VS Code.
-Run git remote add origin https://github.com/your-username/new-repository.git to add the new GitHub repository as a remote.
-Push the Code to the New GitHub Repository:
+// Start NGROK -> ngrok http 3000
+// Start 3000 -> npm run devStart
 
-Open the integrated terminal in VS Code.
-Run git push -u origin master to push the code to the new GitHub repository.
-
-okay
+// Set Webhook -> curl -F "url=https://74c2-2a00-23c6-12b-9d00-9c4f-8cbc-1af8-92db.ngrok-free.app" https://api.telegram.org/bot7909521892:AAFIa01M0nd1fHcGOAQ56lUAKihI4jHVdHM/setWebhook
